@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Red Social - Modelo Instagram",
+        "description": "Se desarrollo la caracteristicas de esta red social con un diseño mas personal.",
+        "link": "https://youtu.be/oqHR4m2FGgI",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/102shot.png",
+        "descriptionDetail": "Para desarrollar esta aplicación, se diseño la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizo React para crear la interfaz de usuario y Redux para la gestión del estado de la aplicación. Además, para el diseño de la interfaz se utilizo css puro y componentes y estilos CSS predefinidos de Bootstrap. Por último, para habilitar la comunicación en tiempo real y características colaborativas, integramos Socket.IO, permitiendo a los usuarios interactuar en tiempo real en nuestra aplicación.",
+        "imageContent": ["/assets/100shot.png", "/assets/101shot.png", "/assets/102shot.png", "/assets/103shot.png", "/assets/104shot.png"]
+    },
+    {
+        "name": "Red Social - Angular",
+        "description": "Modelo de red social, inspirado en instagram, pero con las caracteristicas de Angular.",
+        "link": "https://youtu.be/KxUl_SGbKXk",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/902shot.png",
+        "descriptionDetail": "Para desarrollar esta aplicación, se diseño la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizo el framework Angular para crear la interfaz de usuario y NgRx Store para la gestión del estado de la aplicación. Los estilos de la interfaz se utilizo css puro y componentes de Angular Material. Por último, para habilitar la comunicación en tiempo real y características colaborativas, integramos Socket.IO, permitiendo a los usuarios interactuar en tiempo real en nuestra aplicación.",
+        "imageContent": ["/assets/900shot.png", "/assets/901shot.png", "/assets/902shot.png", "/assets/903shot.png", "/assets/904shot.png", "/assets/905shot.png"]
+    },
+    {
+        "name": "Red Social - React Native",
+        "description": "Se desarrollo la caracteristicas de red social con el uso de componentes mobile para Android.",
+        "link": "https://youtu.be/oqHR4m2FGgI",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/201shot.png",
+        "descriptionDetail": "Para desarrollar esta aplicación, se diseño la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizo React Native Expo para crear la interfaz de usuario y Redux para la gestión del estado de la aplicación. Además, para el diseño de la interfaz se utilizo css puro. Por último, para habilitar la comunicación en tiempo real y características colaborativas, integramos Socket.IO, permitiendo a los usuarios interactuar en tiempo real en nuestra aplicación.",
+        "imageContent": ["/assets/200shot.png", "/assets/201shot.png", "/assets/202shot.png", "/assets/203shot.png", "/assets/204shot.png"]
+    },
+    {
+        "name": "Codifica tu viaje",
+        "description": "Proyecto final del curso 'Desarrollo Web Inicial' dictado por la universidad UTN durante el Argentina Programa 4.0.",
+        "link": "https://gonzalocabrera1990.github.io/landingpage-utn-ap/",
+        "iconWatch": "/assets/browser-com.svg",
+        "image": "/assets/0shot.png",
+        "descriptionDetail": "Esta 'Landing Page' fue diseñada como proyecto final durante el curso 'Desarrollo Web Inicial' dictado por la universidad UTN durante el Argentina Programa 4.0. Su interfaz de usuario fue desarrollada puramente con las tecnologias basicas aprendidas: HTML, Css y Javascript. Además, se le agregó una funcionalidad para mostrar el pronostico del tiempo. Para la cual se utiliza la API weatherapi.com. Luego, para mostrar de manera grafica el pronostico, se implemento el uso de los iconos Bootstrap.",
+        "imageContent": ["/assets/0shot.png", "/assets/1shot.png", "/assets/2shot.png", "/assets/3shot.png"]
+    },
+    {
+        "name": "App del tiempo",
+        "description": "Aplicacion del pronostico del tiempo utilizando la api weatherapi.com",
+        "link": "https://youtu.be/eZxP9S7J6y8",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/502shot.png",
+        "descriptionDetail": "Aplicación que muestra graficamente los diferentes datos que nos devuelve la API weatherapi.com. Para el lado del cliente, se utilizó la herramienta create React Vite. Mediante formulario de por medio hacemos uso de la libreria 'country-state-city', la cual no solo nos brinda la posibilidad de mostrar los paises, estados y ciudades a traves de un input select, sino tambien recuperar la latitud y longitud de la ciudad elegida. A traves de estos datos usamos la ruta de la api 'GET' que usa esta especificidad de latitud y longitud. Luego, para mostrar de manera grafica el pronostico, se implemento el uso de los iconos Bootstrap. A su vez, muestra background-image dinamico dependiendo del tiempo pronosticado y momento del día.",
+        "imageContent": ["/assets/500shot.png", "/assets/501shot.png", "/assets/502shot.png", "/assets/503shot.png", "/assets/504shot.png"]
+    },
+    {
+        "name": "TODO App",
+        "description": "Se crean tanto listas y tareas personales, como tareas grupales asignadas a cada integrante.",
+        "link": "https://youtu.be/7ih9IcGhG6Q",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/303shot.png",
+        "descriptionDetail": "Este proyecto esta basado en la aplicación de escritorio 'To Do' ofrecida por Microsoft. Además se le agregó otra funcionalidad que es el uso de grupos compartidos en donde un lider asigna tareas a otros usuarios. Para desarrollar esta aplicación, se diseño la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizo la herramienta create React Vite para la interfaz de usuario. y Redux para la gestión del estado de la aplicación. El diseño de la interfaz fue a traves de Css puro.",
+        "imageContent": ["/assets/300shot.png", "/assets/301shot.png", "/assets/302shot.png", "/assets/303shot.png", "/assets/304shot.png", "/assets/305shot.png"]
+    }
+]
