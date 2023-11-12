@@ -89,7 +89,7 @@ function App() {
       <header className={colorHeader ? 'header header-con-color' : 'header'} >
         <div className="navigation">
           <a className="logo">
-            <img className="background-svg" src={'/assets/logo-img.png'} alt="" />
+            <img className="background-svg" src={'/portfolio/assets/logo-img.png'} alt="" />
             <div className="logo-name">
               <h1>Gonzalo</h1>
               <h1>Cabrera</h1>
@@ -110,7 +110,7 @@ function App() {
             </div>
           </nav>
           <div className="burger" onClick={() => addClassListEvent()}>
-            <img className="background-svg" src={'/assets/burger-svg.svg'} alt="" />
+            <img className="background-svg" src={'/portfolio/assets/burger-white.svg'} alt="" />
           </div>
         </div>
       </header>
@@ -129,26 +129,26 @@ function App() {
 
       <div className="about-article" id='about'>
         <div className="svg-bottom">
-          <img className="background-svg" src={'/assets/ondassub.svg'} alt="" />
+          <img className="background-svg" src={'/portfolio/assets/ondassub.svg'} alt="" />
         </div>
 
         <div className="poster hidden">
           <h1>Gonzalo Cabrera</h1>
           <div className='redes-contacto' >
             <a href="https://www.linkedin.com/in/gonzalo-cabrera-battistessa-858066128" target='_blank' className="item-skill" rel="noreferrer">
-              <img src={'/assets/linkedin-svg.svg'} alt="" style={{ width: "30px" }} />
+              <img src={'/portfolio/assets/linkedin-svg.svg'} alt="" style={{ width: "30px" }} />
               <p>Linkedin</p>
             </a>
             <a href="https://github.com/gonzalocabrera1990" target='_blank' className="item-skill" rel="noreferrer">
-              <img src={'/assets/github-svg.svg'} alt="" style={{ width: "30px" }} />
+              <img src={'/portfolio/assets/github-svg.svg'} alt="" style={{ width: "30px" }} />
               <p>Github</p>
             </a>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZcQsbbrXPfbBSllwbKdXddnPDVfpSRnTzPZNdbNSpbnpksQcTfDhNVFwGBWNkJSQdXWqq" target='_blank' className="item-skill" data-tooltip="gonzalocabrera1990@gmail.com" rel="noreferrer">
-              <img src={'/assets/google-gmail-svg.svg'} alt="" style={{ width: "30px" }} />
+              <img src={'/portfolio/assets/google-gmail-svg.svg'} alt="" style={{ width: "30px" }} />
               <p>Gmail</p>
             </a>
             <a href="https://youtu.be/7ih9IcGhG6Q" target='_blank' className="item-skill" rel="noreferrer">
-              <img src={'/assets/youtube-svg.svg'} alt="" style={{ width: "30px" }} />
+              <img src={'/portfolio/assets/youtube-svg.svg'} alt="" style={{ width: "30px" }} />
               <p>Youtube</p>
             </a>
           </div>
@@ -165,7 +165,7 @@ function App() {
           </div>
         </div>
         <div className="imagen hiddenImg">
-          <img src={'/assets/profile10.png'} alt="" />
+          <img src={'/portfolio/assets/profile10.png'} alt="" />
         </div>
       </div>
       <div className='projects' id='projects'>
@@ -182,35 +182,35 @@ function App() {
             <h3>Frontend</h3>
             <div className="skills-group" >
               <div className="item-skill">
-                <img src={'/assets/html.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/html.svg'} alt="" style={{ width: "57px" }} />
                 <p>HTML</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/css.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/css.svg'} alt="" style={{ width: "57px" }} />
                 <p>CSS</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/javascript.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/javascript.svg'} alt="" style={{ width: "57px" }} />
                 <p>JavaScript</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/typescript-official-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/typescript-official-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>TypeScript</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/bootstrap.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/bootstrap.svg'} alt="" style={{ width: "57px" }} />
                 <p>Bootstrap</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/reactjs.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/reactjs.svg'} alt="" style={{ width: "57px" }} />
                 <p>ReactJS</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/react-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/react-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>Redux</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/angular.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/angular.svg'} alt="" style={{ width: "57px" }} />
                 <p>Angular</p>
               </div>
             </div>
@@ -219,23 +219,23 @@ function App() {
             <h3>Backend</h3>
             <div className="skills-group" >
               <div className="item-skill">
-                <img src={'/assets/node.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/node.svg'} alt="" style={{ width: "57px" }} />
                 <p>NodeJS</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/express-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/express-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>ExpressJS</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/mongo-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/mongo-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>MongoDB</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/mongoose.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/mongoose.svg'} alt="" style={{ width: "57px" }} />
                 <p>Mongoose</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/socket-io.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/socket-io.svg'} alt="" style={{ width: "57px" }} />
                 <p>Socket.IO</p>
               </div>
             </div>
@@ -244,11 +244,11 @@ function App() {
             <h3>Mobile</h3>
             <div className="skills-group" >
               <div className="item-skill">
-                <img src={'/assets/native-svgrepo-com .svg'} alt="" style={{ width: "57px" }} />
-                <p>React NAtive</p>
+                <img src={'/portfolio/assets/native-svgrepo-com .svg'} alt="" style={{ width: "57px" }} />
+                <p>React Native</p>
               </div>
               <div className="item-skill">
-                <img src={'/assets/expo-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/expo-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>Expo Go</p>
               </div>
             </div>
@@ -257,12 +257,12 @@ function App() {
             <h3>Tools</h3>
             <div className="skills-group" >
               <div className="item-skill">
-                <img src={'/assets/git.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/git.svg'} alt="" style={{ width: "57px" }} />
                 <p>GIT</p>
               </div>
 
               <div className="item-skill">
-                <img src={'/assets/postman-icon-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/postman-icon-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>Postman</p>
               </div>
             </div>
@@ -271,14 +271,14 @@ function App() {
             <h3>Aprendiendo</h3>
             <div className="skills-group" >
               <div className="item-skill">
-                <img src={'/assets/nextjs-fill-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <img src={'/portfolio/assets/nextjs-fill-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>NextJS</p>
               </div>
             </div>
           </div>
         </div>
         <div className="svg-top">
-          <img className='background-svg' src={'/assets/c.svg'} alt="" />
+          <img className='background-svg' src={'/portfolio/assets/c.svg'} alt="" />
         </div>
       </div>
       <div className="modal fade modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -325,19 +325,19 @@ function App() {
         </h2>
         <div className='redes-contacto' >
           <a href="https://www.linkedin.com/in/gonzalo-cabrera-battistessa-858066128" target='_blank' className="item-skill" rel="noreferrer">
-            <img src={'/assets/linkedin-svg.svg'} alt="" style={{ width: "35px" }} />
+            <img src={'/portfolio/assets/linkedin-svg.svg'} alt="" style={{ width: "35px" }} />
             <p>Linkedin</p>
           </a>
           <a href="https://github.com/gonzalocabrera1990" target='_blank' className="item-skill" rel="noreferrer">
-            <img src={'/assets/github-svg.svg'} alt="" style={{ width: "35px" }} />
+            <img src={'/portfolio/assets/github-svg.svg'} alt="" style={{ width: "35px" }} />
             <p>Github</p>
           </a>
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZcQsbbrXPfbBSllwbKdXddnPDVfpSRnTzPZNdbNSpbnpksQcTfDhNVFwGBWNkJSQdXWqq" target='_blank' className="item-skill" data-tooltip="gonzalocabrera1990@gmail.com" rel="noreferrer">
-            <img src={'/assets/google-gmail-svg.svg'} alt="" style={{ width: "35px" }} />
+            <img src={'/portfolio/assets/google-gmail-svg.svg'} alt="" style={{ width: "35px" }} />
             <p>Gmail</p>
           </a>
           <a href="https://youtu.be/oqHR4m2FGgI" target='_blank' className="item-skill" rel="noreferrer">
-            <img src={'/assets/youtube-svg.svg'} alt="" style={{ width: "35px" }} />
+            <img src={'/portfolio/assets/youtube-svg.svg'} alt="" style={{ width: "35px" }} />
             <p>Youtube</p>
           </a>
         </div>
