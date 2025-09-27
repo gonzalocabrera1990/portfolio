@@ -97,7 +97,7 @@ function App() {
           </a>
           <nav>
             <div className="links">
-              <a href="#about" className="link-name">About</a>
+              <a href="#about" className="link-name">Sobre Mi</a>
             </div>
             <div className="links">
               <a href="#projects" className="link-name">Proyectos</a>
@@ -157,10 +157,10 @@ function App() {
               Con formación técnica en administración contable, he buscado estos últimos años redireccionar mi carrera hacia donde he encontrado mi pasión: la programación.
             </p>
             <p>
-              Me he capacitado en JavaScript, tanto como frontend y backend, y en diferentes herramientas para lograr ser programador web.
+              Me he capacitado en JavaScript, tanto como desarrollador frontend y backend, y en diferentes herramientas para lograr ser programador web.
             </p>
             <p>
-              Estoy en búsqueda de desarrollar experiencia en posiciones que me permitan mejorar como profesional de la programación aprendiendo día a día el oficio de esta profesión.
+              Estoy en la búsqueda de adquirir experiencia en posiciones que me permitan mejorar como profesional de la programación, aprendiendo día a día el oficio de esta profesión.
             </p>
           </div>
         </div>
@@ -273,6 +273,10 @@ function App() {
               <div className="item-skill">
                 <img src={'/portfolio/assets/nextjs-fill-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
                 <p>NextJS</p>
+              </div>
+              <div className="item-skill">
+                <img src={'/portfolio/assets/python-svgrepo-com.svg'} alt="" style={{ width: "57px" }} />
+                <p>Python</p>
               </div>
             </div>
           </div>
