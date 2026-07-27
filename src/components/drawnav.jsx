@@ -20,7 +20,7 @@ export function DrawNavBar() {
         </div>
       </div>
       <div className="burger" onClick={() => addClassListEvent()}>
-        <img className="background-svg" src={'/portfolio/assets/burger-black.svg'} alt="" />
+        <img className="background-svg" src={'/assets/burger-black.svg'} alt="" />
       </div>
     </div>
   )
