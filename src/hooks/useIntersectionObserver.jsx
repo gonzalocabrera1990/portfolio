@@ -3,7 +3,6 @@ import { useEffect, useRef } from 'react';
 export function useScrollAnimation(options = {}) {
     const elementsRef = useRef([]);
 
-    // Función para registrar elementos en la ref
     const addToRefs = (el) => {
         if (el && !elementsRef.current.includes(el)) {
             elementsRef.current.push(el);
@@ -11,19 +10,22 @@ export function useScrollAnimation(options = {}) {
     };
 
     useEffect(() => {
-        const observer = new IntersectionObserver((entries) => {
+        // 1. Recibimos (entries, observer) en la función del callback
+        const observer = new IntersectionObserver((entries, observerInstance) => {
             entries.forEach((entry) => {
-                // Leemos la clase activa desde un data-attribute (opcional) o aplicamos por defecto
-                const activeClass = entry.target.dataset.animationClass || 'show';
-
                 if (entry.isIntersecting) {
+                    const activeClass = entry.target.dataset.animationClass || 'show';
+
+                    // Agregamos la clase que hace visible la animación
                     entry.target.classList.add(activeClass);
-                } else {
-                    entry.target.classList.remove(activeClass);
+
+                    // 2. ¡AQUÍ ESTÁ EL TRUCO! 
+                    // Dejamos de observar este elemento para que NUNCA vuelva a ocultarse
+                    observerInstance.unobserve(entry.target);
                 }
             });
         }, {
-            threshold: 0.1, // Se activa cuando el 10% del elemento es visible
+            threshold: 0, // Se activa al asomar un 10%
             ...options
         });
 

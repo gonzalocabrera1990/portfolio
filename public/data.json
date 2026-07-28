@@ -1,5 +1,6 @@
 [
     {
+        "id": "0",
         "name": "Red Social - Modelo Instagram",
         "description": "Se desarrolló las características de esta red social con un diseñó más personal.",
         "link": "https://youtu.be/oqHR4m2FGgI",
@@ -15,6 +16,7 @@
         ]
     },
     {
+        "id": "1",
         "name": "Red Social - Angular",
         "description": "Modelo de red social, inspirado en instagram, pero con las características de Angular.",
         "link": "https://youtu.be/KxUl_SGbKXk",
@@ -31,6 +33,7 @@
         ]
     },
     {
+        "id": "2",
         "name": "Red Social - React Native",
         "description": "Se desarrolló las características de red social con el uso de componentes mobile para Android.",
         "link": "https://youtu.be/oqHR4m2FGgI",
@@ -46,6 +49,7 @@
         ]
     },
     {
+        "id": "3",
         "name": "Codifica tu viaje",
         "description": "Proyecto final del curso 'Desarrollo Web Inicial' dictado por la universidad UTN durante el Argentina Programa 4.0.",
         "link": "https://gonzalocabrera1990.github.io/landingpage-utn-ap/",
@@ -60,6 +64,7 @@
         ]
     },
     {
+        "id": "4",
         "name": "App del tiempo",
         "description": "Aplicación del pronóstico del tiempo utilizando la API weatherapi.com.",
         "link": "https://youtu.be/eZxP9S7J6y8",
@@ -75,6 +80,7 @@
         ]
     },
     {
+        "id": "5",
         "name": "TODO App",
         "description": "Se crean tanto listas y tareas personales, como tareas grupales asignadas a cada integrante.",
         "link": "https://youtu.be/7ih9IcGhG6Q",

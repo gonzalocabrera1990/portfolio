@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import { useMediaQuery } from '../hooks/useMediaQuery';
+import { useNavigate } from 'react-router-dom';
+import { Modal } from 'bootstrap';
 
 export function Projects() {
     const [projects, setProjects] = useState([])
     const [modalApp, setModalApp] = useState(null)
+    const navigate = useNavigate();
+    const isMobile = useMediaQuery('(max-width: 768px)');
+
     useEffect(() => {
         (function () {
             fetch('data.json', {
@@ -19,10 +25,33 @@ export function Projects() {
         })()
 
     }, [])
+    const handleProjectClick = (item) => {
+        if (isMobile) {
+            // 📱 MÓVIL: Redirige a la vista completa
+            navigate(`/detalle/${item.id}`);
+        } else {
+            // 🖥️ ESCRITORIO: Carga los datos en el estado y muestra el modal
+            setModalApp(item);
+
+            const modalElement = document.getElementById('staticBackdrop');
+            if (modalElement) {
+                const modalInstance = Modal.getOrCreateInstance(modalElement);
+                modalInstance.show();
+            }
+        }
+    };
+
+    // const showView = (item) => {
+    //     if (isMobile) {
+    //         navigate(`/detalle/${item.id}`);
+    //     } else {
+    //         setModalApp(item)
+    //     }
+    // };
 
     const projectsMap = projects ? projects.map((item, index) => {
         return (
-            <div key={index} className="projects-card" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => showView(item)} >
+            <div key={index} className="projects-card" onClick={() => handleProjectClick(item)} >
                 <div className="projects-image" >
                     <img className="projects-image-item" src={item.image} alt="" />
                 </div>
@@ -35,16 +64,14 @@ export function Projects() {
             </div>
         )
     }) : null
-    const showView = (item) => {
-        setModalApp(item)
-    }
+
     return (
         <div className='projects' id='projects'>
             <h2>Proyectos</h2>
             <div className='projects-items'>
                 {projectsMap}
             </div>
-            <div className="modal fade modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div className="modal fade modal-xl modal-dialog-scrollable scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     {modalApp ?
                         <div className="modal-content">
