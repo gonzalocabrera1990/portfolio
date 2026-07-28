@@ -3,9 +3,13 @@
   --green-detail: #23a024;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #302e35;
-  overflow-x: hidden;
 }
 
 h1,
@@ -92,41 +96,52 @@ a {
 a:hover {
   color: rgb(215, 215, 209);
 }
+
 .header-con-color {
   background-color: var(--dark);
   transition: all 600ms;
 }
-.header-con-color a{
+
+.header-con-color a {
   color: #fff;
 }
-.draw {
-  position: absolute;
-  width: 0;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  height: calc(100vh - 60px);
-  opacity: 0;
-  transform: translateX(100%);
-}
 
-.drawing {
+
+.draw {
   position: fixed;
   top: 0;
   right: 0;
-  height: calc(100vh);
+
+  width: 35vw;
+  height: 100dvh;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
   background-color: beige;
-  width: 35vw;
-  z-index: 100;
-  transition: 1s ease;
-  opacity: 1;
-  transform: translateX(0);
+
   padding-left: 20px;
   border-left: 3px solid var(--green-detail);
+
+  z-index: 100;
+
+  transform: translateX(100%);
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+
+  transition:
+    transform 0.6s ease,
+    opacity 0.6s ease;
 }
+
+.drawing {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .draw-nav {
   height: 95%;
 }
@@ -135,7 +150,7 @@ a:hover {
   padding: 10px 0;
 }
 
-.drawing .burger {
+.burger {
   width: 30px;
   cursor: pointer;
 }
@@ -148,7 +163,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 745px) {
   header {
     justify-content: center;
   }
@@ -293,6 +308,12 @@ a:hover {
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all 2s;
+  will-change: transform, opacity;
+  /* will-change le avisa al navegador que optimice este elemento */
+  /* opacity: 0;
+  transform: translateX(-80px);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+              opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
 .redes-contacto {
@@ -304,7 +325,12 @@ a:hover {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(100%);
+  will-change: transform, opacity;
   transition: all 2s;
+  /* opacity: 0;
+  transform: translateX(80px);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+              opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1); */
 }
 
 .setshow {
@@ -447,7 +473,65 @@ img.projects-image-item {
 
 /* PROJECTS */
 
+.project-detail .project-detail-dialog {
+  width: 100%;
+}
 
+.project-detail .project-detail-dialog .project-detail-content {
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  overflow-y: auto;
+}
+
+.project-detail .project-detail-dialog .project-detail-content * {
+  color: #ffffff;
+}
+
+.project-detail .project-detail-dialog .project-detail-content .btn {
+  background-color: var(--green-detail);
+  color: #fff;
+}
+
+.project-detail-card {
+  overflow: hidden;
+  min-width: 250px;
+  max-width: 280px;
+  height: 180px;
+  border: 5px solid var(--dark);
+  border-radius: 30px;
+  background-color: #23a024;
+}
+
+.project-detail-media-images {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  margin-top: 50px;
+}
+
+.project-detail-media-images::-webkit-scrollbar,
+.project-detail-content::-webkit-scrollbar {
+  height: 0px;
+}
+
+.project-detail-image {
+  height: 100%;
+}
+
+.project-detail-dialog .project-detail-content .project-detail-header .btn-close {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .project-detail-dialog {
+    max-width: 100%;
+  }
+
+  .skill-list {
+    padding-top: 150px;
+  }
+}
 
 /* SKILLS */
 .svg-top {
@@ -555,6 +639,11 @@ img.projects-image-item {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
   }
+
+  .skill-list {
+    padding-top: 250px;
+    padding-bottom: 100px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -604,6 +693,7 @@ footer {
   background-color: #16631c;
   box-shadow: inset 0px 30px 30px #0e0f17;
 }
+
 a.item-skill {
   margin: 10px;
   display: flex;
@@ -612,6 +702,7 @@ a.item-skill {
   justify-content: space-between;
   font-size: 18px;
 }
+
 a.item-skill[data-tooltip]:hover::after {
   content: attr(data-tooltip);
   width: auto;
@@ -624,11 +715,77 @@ a.item-skill[data-tooltip]:hover::after {
   top: 35px;
   left: 28px;
 }
+
 /* FOOTER */
 
 
+.project-detail .project-detail-dialog {
+  width: 100%;
+}
+
+.project-detail .project-detail-dialog .project-detail-content {
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  overflow-y: auto;
+}
+
+.project-detail .project-detail-dialog .project-detail-content * {
+  color: #ffffff;
+}
+
+.project-detail .project-detail-dialog .project-detail-content .btn {
+  background-color: var(--green-detail);
+  color: #fff;
+}
+
+.project-detail-card {
+  overflow: hidden;
+  min-width: 250px;
+  max-width: 280px;
+  height: 180px;
+  border: 5px solid var(--dark);
+  border-radius: 30px;
+  background-color: #23a024;
+}
+
+.project-detail-media-images {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  margin-top: 50px;
+}
+
+.project-detail-media-images::-webkit-scrollbar,
+.project-detail-content::-webkit-scrollbar {
+  height: 0px;
+}
+
+.project-detail-image {
+  height: 100%;
+}
+
+.project-detail-dialog .project-detail-content .project-detail-header .btn-close {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .project-detail-dialog {
+    max-width: 100%;
+  }
+
+  .skill-list {
+    padding-top: 150px;
+  }
+}
+
+.modal {
+  max-height: 90vh !important;
+}
+
 .modal .modal-dialog {
   width: 100%;
+  height: 100%;
 }
 
 .modal .modal-dialog .modal-content {
@@ -641,11 +798,13 @@ a.item-skill[data-tooltip]:hover::after {
 .modal .modal-dialog .modal-content * {
   color: #ffffff;
 }
+
 .modal .modal-dialog .modal-content .btn {
   background-color: var(--green-detail);
   color: #fff;
 }
-.modal-card{
+
+.modal-card {
   overflow: hidden;
   min-width: 250px;
   max-width: 280px;
@@ -654,23 +813,38 @@ a.item-skill[data-tooltip]:hover::after {
   border-radius: 30px;
   background-color: #23a024;
 }
-.modal-media-images{
+
+.modal-media-images {
   display: flex;
   flex-wrap: nowrap;
   overflow-y: auto;
   margin-top: 50px;
 }
-.modal-media-images::-webkit-scrollbar, .modal-content::-webkit-scrollbar {
+
+.modal-media-images::-webkit-scrollbar,
+.modal-content::-webkit-scrollbar {
   height: 0px;
 }
+
 .modal-image {
   height: 100%;
 }
+
 .modal-dialog .modal-content .modal-header .btn-close {
   background-color: #fff;
 }
-@media screen and (max-width: 375px){
+
+.modal-content {
+  background-color: #302e35;
+  max-height: 90vh;
+}
+
+.modal-dialog {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 375px) {
   .modal-dialog {
     max-width: 100%;
-  } 
+  }
 }

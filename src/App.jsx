@@ -1,24 +1,16 @@
 import './App.css';
-
+import { Routes, Route } from 'react-router-dom';
 //COMPONENTS
-import { DrawNavBar } from './components/drawnav'
-import { Cover } from './components/cover';
-import { NavBar } from './components/navbar';
-import { About } from './components/about';
-import { Projects } from './components/projects';
-import { SkillList } from './components/skills';
-import { Contact } from './components/contact';
+import { Home } from './components/Home'
+import { ProjectDetail } from './components/ProjectDetail';
 
 function App() {
   return (
     <div className="App" >
-      <DrawNavBar />
-      <NavBar />
-      <Cover />
-      <About />
-      <Projects />
-      <SkillList />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detalle/:id" element={<ProjectDetail />} />
+      </Routes>
     </div>
   );
 }
