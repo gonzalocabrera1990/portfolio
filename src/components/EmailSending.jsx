@@ -84,7 +84,7 @@ export const ContactEmail = () => {
   return (
     <div>
       <div className="project-detail-back" onClick={() => navigate(-1)}>
-        <img src={'/assets/back-arrow.svg'} alt="" />
+        <img src={'/portfolio/assets/back-arrow.svg'} alt="" />
         <span>Volver</span>
       </div>
       <div style={{

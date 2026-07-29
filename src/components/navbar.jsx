@@ -29,7 +29,7 @@ export function NavBar({ menuOpen, setMenuOpen }) {
         <header className={colorHeader ? 'header header-con-color' : 'header'} >
             <div className="navigation">
                 <a className="logo">
-                    <img className="background-svg" src={'/assets/logo-img.png'} alt="" />
+                    <img className="background-svg" src={'/portfolio/assets/logo-img.png'} alt="" />
                     <div className="logo-name">
                         <h1>Gonzalo</h1>
                         <h1>Cabrera</h1>
@@ -53,7 +53,7 @@ export function NavBar({ menuOpen, setMenuOpen }) {
                     </div>
                 </nav>
                 {/* <div className="burger" onClick={() => addClassListEvent()}>
-                    <img className="background-svg" src={'/assets/burger-white.svg'} alt="" />
+                    <img className="background-svg" src={'/portfolio/assets/burger-white.svg'} alt="" />
                 </div> */}
                 <div
                     className="burger"
@@ -61,7 +61,7 @@ export function NavBar({ menuOpen, setMenuOpen }) {
                 >
                     <img
                         className="background-svg"
-                        src="/assets/burger-white.svg"
+                        src="/portfolio/assets/burger-white.svg"
                         alt=""
                     />
                 </div>
