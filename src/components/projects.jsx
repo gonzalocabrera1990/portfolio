@@ -11,7 +11,7 @@ export function Projects() {
 
     useEffect(() => {
         (function () {
-            fetch('data.json', {
+            fetch('/portfolio/data.json', {
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
