@@ -19,7 +19,7 @@ export function Contact() {
                     <img src={'/assets/google-gmail-svg.svg'} alt="" style={{ width: "35px" }} />
                     <p>Gmail</p>
                 </a> */}
-                <a href="/contact/email" className="item-skill" >
+                <a href="/portfolio/contact/email" className="item-skill" >
                     <img src={'/assets/google-gmail-svg.svg'} alt="" style={{ width: "35px" }} />
                     <p>Gmail</p>
                 </a>
