@@ -703,7 +703,7 @@ a.item-skill {
   font-size: 18px;
 }
 
-a.item-skill[data-tooltip]:hover::after {
+/* a.item-skill[data-tooltip]:hover::after {
   content: attr(data-tooltip);
   width: auto;
   padding: 5px;
@@ -714,7 +714,7 @@ a.item-skill[data-tooltip]:hover::after {
   border-radius: 5px;
   top: 35px;
   left: 28px;
-}
+} */
 
 /* FOOTER */
 
