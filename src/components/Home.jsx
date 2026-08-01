@@ -2,8 +2,8 @@ import { useState } from "react";
 
 // COMPONENTS
 import { DrawNavBar } from "./drawnav";
-import { Cover } from "./Cover";
-import { NavBar } from "./Navbar";
+import { Cover } from "./cover";
+import { NavBar } from "./navbar";
 import { About } from "./about";
 import { Projects } from "./projects";
 import { SkillList } from "./skills";
