@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 // COMPONENTS
-import { DrawNavBar } from "./Drawnav";
+import { DrawNavBar } from "./drawnav";
 import { Cover } from "./Cover";
 import { NavBar } from "./Navbar";
-import { About } from "./About";
+import { About } from "./about";
 import { Projects } from "./projects";
 import { SkillList } from "./skills";
-import { Contact } from "./Contact";
+import { Contact } from "./contact";
 
 export function Home() {
     const [menuOpen, setMenuOpen] = useState(false);
