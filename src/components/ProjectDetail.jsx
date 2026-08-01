@@ -11,7 +11,7 @@ export function ProjectDetail() {
 
     useEffect(() => {
         // Si tu data.json está en la carpeta 'public', la ruta raíz es '/data.json'
-        fetch('/portfolio/data.json')
+        fetch('data.json')
             .then((res) => {
                 if (!res.ok) {
                     throw new Error('Error al cargar la información');
@@ -48,7 +48,7 @@ export function ProjectDetail() {
             <div className="project-detail-dialog">
                 <div className="project-detail-content">
                     <div className="project-detail-back" onClick={() => navigate(-1)}>
-                        <img src={'/portfolio/assets/back-arrow.svg'} alt="" />
+                        <img src={'/assets/back-arrow.svg'} alt="" />
                         <span>Volver</span>
                     </div>
                     <div className="project-detail-header">

@@ -71,35 +71,35 @@ export function SkillList() {
                     <h3>Frontend</h3>
                     <div className="skills-group" >
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/html.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/html.svg'} alt="" style={{ width: "54px" }} />
                             <p>HTML</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/css.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/css.svg'} alt="" style={{ width: "54px" }} />
                             <p>CSS</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/javascript.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/javascript.svg'} alt="" style={{ width: "54px" }} />
                             <p>JavaScript</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/typescript-official-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/typescript-official-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>TypeScript</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/bootstrap.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/bootstrap.svg'} alt="" style={{ width: "54px" }} />
                             <p>Bootstrap</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/reactjs.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/reactjs.svg'} alt="" style={{ width: "54px" }} />
                             <p>ReactJS</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/react-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/react-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>Redux</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/angular.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/angular.svg'} alt="" style={{ width: "54px" }} />
                             <p>Angular</p>
                         </div>
                     </div>
@@ -108,31 +108,31 @@ export function SkillList() {
                     <h3>Backend</h3>
                     <div className="skills-group" >
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/node.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/node.svg'} alt="" style={{ width: "54px" }} />
                             <p>NodeJS</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/express-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/express-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>ExpressJS</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/mongo-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/mongo-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>MongoDB</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/mongoose.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/mongoose.svg'} alt="" style={{ width: "54px" }} />
                             <p>Mongoose</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/socket-io.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/socket-io.svg'} alt="" style={{ width: "54px" }} />
                             <p>Socket.IO</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/django.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/django.svg'} alt="" style={{ width: "54px" }} />
                             <p>Django</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/postgresql.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/postgresql.svg'} alt="" style={{ width: "54px" }} />
                             <p>PostgreSQL</p>
                         </div>
                     </div>
@@ -141,11 +141,11 @@ export function SkillList() {
                     <h3>Mobile</h3>
                     <div className="skills-group" >
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/native-svgrepo-com .svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/native-svgrepo-com .svg'} alt="" style={{ width: "54px" }} />
                             <p>React Native</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/expo-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/expo-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>Expo Go</p>
                         </div>
                     </div>
@@ -154,19 +154,19 @@ export function SkillList() {
                     <h3>Tools</h3>
                     <div className="skills-group" >
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/git.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/git.svg'} alt="" style={{ width: "54px" }} />
                             <p>GIT</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/postman-icon-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/postman-icon-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>Postman</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/docker.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/docker.svg'} alt="" style={{ width: "54px" }} />
                             <p>Docker</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/antigravity.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/antigravity.svg'} alt="" style={{ width: "54px" }} />
                             <p>Antigravity</p>
                         </div>
                     </div>
@@ -175,18 +175,18 @@ export function SkillList() {
                     <h3>Aprendiendo</h3>
                     <div className="skills-group" >
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/nextjs-fill-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/nextjs-fill-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>NextJS</p>
                         </div>
                         <div className="item-skill">
-                            <img src={'/portfolio/assets/python-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
+                            <img src={'/assets/python-svgrepo-com.svg'} alt="" style={{ width: "54px" }} />
                             <p>Python</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="svg-top">
-                <img className='background-svg' src={'/portfolio/assets/c.svg'} alt="" />
+                <img className='background-svg' src={'/assets/c.svg'} alt="" />
             </div>
         </div>
     )

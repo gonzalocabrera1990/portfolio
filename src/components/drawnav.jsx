@@ -62,7 +62,7 @@ export function DrawNavBar({ menuOpen, setMenuOpen }) {
       >
         <img
           className="background-svg"
-          src="/portfolio/assets/burger-black.svg"
+          src="/assets/burger-black.svg"
           alt=""
         />
       </div>

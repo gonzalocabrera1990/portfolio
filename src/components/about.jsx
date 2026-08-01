@@ -7,7 +7,7 @@ export function About() {
     return (
         <div className="about-article" id="about">
             <div className="svg-bottom">
-                <img className="background-svg" src="/portfolio/assets/ondassub.svg" alt="" />
+                <img className="background-svg" src="/assets/ondassub.svg" alt="" />
             </div>
 
             {/* Asignamos la ref y especificamos qué clase agregar al intersectar */}
@@ -19,19 +19,19 @@ export function About() {
                 <h1>Gonzalo Cabrera</h1>
                 <div className="redes-contacto">
                     <a href="https://www.linkedin.com/in/gonzalo-cabrera-battistessa-858066128" target="_blank" className="item-skill" rel="noreferrer">
-                        <img src="/portfolio/assets/linkedin-svg.svg" alt="" style={{ width: "30px" }} />
+                        <img src="/assets/linkedin-svg.svg" alt="" style={{ width: "30px" }} />
                         <p>Linkedin</p>
                     </a>
                     <a href="https://github.com/gonzalocabrera1990" target="_blank" className="item-skill" rel="noreferrer">
-                        <img src="/portfolio/assets/github-svg.svg" alt="" style={{ width: "30px" }} />
+                        <img src="/assets/github-svg.svg" alt="" style={{ width: "30px" }} />
                         <p>Github</p>
                     </a>
-                    <a href="/portfolio/contact/email" className="item-skill">
-                        <img src="/portfolio/assets/google-gmail-svg.svg" alt="" style={{ width: "30px" }} />
+                    <a href="/contact/email" className="item-skill">
+                        <img src="/assets/google-gmail-svg.svg" alt="" style={{ width: "30px" }} />
                         <p>Gmail</p>
                     </a>
                     <a href="https://youtu.be/7ih9IcGhG6Q" target="_blank" className="item-skill" rel="noreferrer">
-                        <img src="/portfolio/assets/youtube-svg.svg" alt="" style={{ width: "30px" }} />
+                        <img src="/assets/youtube-svg.svg" alt="" style={{ width: "30px" }} />
                         <p>Youtube</p>
                     </a>
                 </div>
@@ -54,7 +54,7 @@ export function About() {
                 ref={animateRef}
                 data-animation-class="showImg"
             >
-                <img src="/portfolio/assets/profile10.png" alt="" />
+                <img src="/assets/profile10.png" alt="" />
             </div>
         </div>
     );
