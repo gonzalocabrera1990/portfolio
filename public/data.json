@@ -67,8 +67,8 @@
         "id": "4",
         "name": "App del tiempo",
         "description": "Aplicación del pronóstico del tiempo utilizando la API weatherapi.com.",
-        "link": "https://youtu.be/eZxP9S7J6y8",
-        "iconWatch": "/assets/youtube-svg.svg",
+        "link": "https://weather-poptw7glw-land-scape.vercel.app/",
+        "iconWatch": "/assets/browser-com.svg",
         "image": "/assets/502shot.png",
         "descriptionDetail": "Aplicación que muestra gráficamente los diferentes datos que nos devuelve la API weatherapi.com. Para el lado del cliente, se utilizó la herramienta create React Vite. Mediante formulario de por medio hacemos uso de la librería 'country-state-city', la cual no solo nos brinda la posibilidad de mostrar los países, estados y ciudades a través de un input select, sino también recuperar la latitud y longitud de la ciudad elegida. A través de estos datos usamos la ruta de la api 'GET' que usa esta especificidad de latitud y longitud. Luego, para mostrar de manera grafica el pronóstico, se implementó el uso de los iconos Bootstrap. A su vez, muestra background-image dinámico dependiendo del tiempo pronosticado y momento del día.",
         "imageContent": [
