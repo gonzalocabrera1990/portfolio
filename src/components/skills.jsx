@@ -169,6 +169,10 @@ export function SkillList() {
                             <img src={'/assets/antigravity.svg'} alt="" style={{ width: "54px" }} />
                             <p>Antigravity</p>
                         </div>
+                        <div className="item-skill">
+                            <img src={'/assets/opencode.svg'} alt="" style={{ width: "54px" }} />
+                            <p>Open Code</p>
+                        </div>
                     </div>
                 </div>
                 <div className="skills-type learning hiddenImg" ref={animateRef} data-animation-class="setshow">

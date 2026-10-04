@@ -1,6 +1,39 @@
 [
     {
         "id": "0",
+        "name": "EVENTLIVE - TICKETERA",
+        "description": "Trabajo final para la Diplomatura en Desarrollo de Software - UTN.",
+        "link": "https://youtu.be/ZxzaTBatxUo",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/10shots_so.png",
+        "descriptionDetail": "Plataforma web de venta de tickets para eventos y espectáculos en vivo. Permite a los usuarios consultar cartelera, seleccionar ubicaciones o sectores (Platea, General, etc.) y realizar compras seguras. Implementa generación dinámica de códigos QR únicos para cada entrada adquirida, consulta de órdenes y detalles del evento en tiempo real. Desarrollada con un stack moderno enfocado en alto rendimiento, interactividad y experiencia de usuario fluida. Para el backend se utilizó Django (Python) debido a su robustez, ORM avanzado y arquitectura MVT/REST ideal para la lógica de negocio y seguridad en transacciones. La base de datos relacional PostgreSQL garantiza la integridad ACID en transacciones financieras concurridas y stock de entradas. Se integró el SDK de Mercado Pago para el procesamiento automatizado de pagos y webhooks de confirmación.",
+        "imageContent": [
+            "/assets/10shots_so.png",
+            "/assets/100shots_so.png",
+            "/assets/1000shots_so.png",
+            "/assets/10000shots_so.png",
+            "/assets/100000shots_so.png",
+            "/assets/1000000shots_so.png"
+        ]
+    },
+    {
+        "id": "1",
+        "name": "Escaner QR & Control de Acceso Mobile",
+        "description": "Aplicación móvil para la validación de entradas en eventos mediante cámara y lectura de códigos QR en tiempo real.",
+        "link": "https://youtu.be/ZxzaTBatxUo?t=220",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/0shots_so.png",
+        "descriptionDetail": "Aplicación móvil desarrollada con React Native y Expo Camera diseñada para los controles de acceso en puerta de eventos. Permite la lectura eficiente de códigos QR conectándose a las APIs del backend Django. Incluye Modos de trabajo seleccionables ('Acceso Definitivo' para Check-in e invalidez del QR y 'Solo Lectura' para verificación informativa), feedback háptico, interfaz con guía de escaneo personalizada mediante overlays y pantalla modal de resultado para consumo directo de API de validación en tiempo real.",
+        "imageContent": [
+            "/assets/0shots_so.png",
+            "/assets/1shots_so.png",
+            "/assets/2shots_so.png",
+            "/assets/3shots_so.png",
+            "/assets/4shots_so.png"
+        ]
+    },
+    {
+        "id": "2",
         "name": "Red Social - Modelo Instagram",
         "description": "Se desarrolló las características de esta red social con un diseñó más personal.",
         "link": "https://youtu.be/oqHR4m2FGgI",
@@ -16,7 +49,7 @@
         ]
     },
     {
-        "id": "1",
+        "id": "3",
         "name": "Red Social - Angular",
         "description": "Modelo de red social, inspirado en instagram, pero con las características de Angular.",
         "link": "https://youtu.be/KxUl_SGbKXk",
@@ -33,7 +66,7 @@
         ]
     },
     {
-        "id": "2",
+        "id": "4",
         "name": "Red Social - React Native",
         "description": "Se desarrolló las características de red social con el uso de componentes mobile para Android.",
         "link": "https://youtu.be/oqHR4m2FGgI",
@@ -49,7 +82,7 @@
         ]
     },
     {
-        "id": "3",
+        "id": "5",
         "name": "Codifica tu viaje",
         "description": "Proyecto final del curso 'Desarrollo Web Inicial' dictado por la universidad UTN durante el Argentina Programa 4.0.",
         "link": "https://gonzalocabrera1990.github.io/landingpage-utn-ap/",
@@ -64,7 +97,7 @@
         ]
     },
     {
-        "id": "4",
+        "id": "6",
         "name": "App del tiempo",
         "description": "Aplicación del pronóstico del tiempo utilizando la API weatherapi.com.",
         "link": "https://weather-poptw7glw-land-scape.vercel.app/",
@@ -80,7 +113,7 @@
         ]
     },
     {
-        "id": "5",
+        "id": "7",
         "name": "TODO App",
         "description": "Se crean tanto listas y tareas personales, como tareas grupales asignadas a cada integrante.",
         "link": "https://youtu.be/7ih9IcGhG6Q",
