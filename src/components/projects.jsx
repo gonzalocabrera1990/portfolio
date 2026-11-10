@@ -49,20 +49,36 @@ export function Projects() {
     //     }
     // };
 
-    const projectsMap = projects ? projects.map((item, index) => {
-        return (
-            <div key={index} className="projects-card" onClick={() => handleProjectClick(item)} >
-                <div className="projects-image" >
-                    <img className="projects-image-item" src={item.image} alt="" />
+    const projectsMap = projects ? projects.map((item) => {
+        if (item.status === "working"){
+            return (
+                <div key={item.id} className="projects-card-working" >
+                    <div className="projects-image" >
+                        <img className="projects-image-item" src={item.image} alt="" />
+                    </div>
+                    <div className="projects-name" style={{padding: "0 15px"}} >
+                        <h3>{item.name}</h3>
+                    </div>
+                    <div className="projects-description" >
+                        <span>{item.description}</span>
+                    </div>
                 </div>
-                <div className="projects-name" >
-                    <h3>{item.name}</h3>
+            )
+        } else {
+            return (
+                <div key={item.id} className="projects-card" onClick={() => handleProjectClick(item)} >
+                    <div className="projects-image" >
+                        <img className="projects-image-item" src={item.image} alt="" />
+                    </div>
+                    <div className="projects-name" >
+                        <h3>{item.name}</h3>
+                    </div>
+                    <div className="projects-description" >
+                        <span>{item.description}</span>
+                    </div>
                 </div>
-                <div className="projects-description" >
-                    <span>{item.description}</span>
-                </div>
-            </div>
-        )
+            )
+    }
     }) : null
 
     return (

@@ -7,6 +7,7 @@
         "iconWatch": "/assets/youtube-svg.svg",
         "image": "/assets/10shots_so.png",
         "descriptionDetail": "Plataforma web de venta de tickets para eventos y espectáculos en vivo. Permite a los usuarios consultar cartelera, seleccionar ubicaciones o sectores (Platea, General, etc.) y realizar compras seguras. Implementa generación dinámica de códigos QR únicos para cada entrada adquirida, consulta de órdenes y detalles del evento en tiempo real. Desarrollada con un stack moderno enfocado en alto rendimiento, interactividad y experiencia de usuario fluida. Para el backend se utilizó Django (Python) debido a su robustez, ORM avanzado y arquitectura MVT/REST ideal para la lógica de negocio y seguridad en transacciones. La base de datos relacional PostgreSQL garantiza la integridad ACID en transacciones financieras concurridas y stock de entradas. Se integró el SDK de Mercado Pago para el procesamiento automatizado de pagos y webhooks de confirmación.",
+        "status": "ended",
         "imageContent": [
             "/assets/10shots_so.png",
             "/assets/100shots_so.png",
@@ -24,6 +25,7 @@
         "iconWatch": "/assets/youtube-svg.svg",
         "image": "/assets/0shots_so.png",
         "descriptionDetail": "Aplicación móvil desarrollada con React Native y Expo Camera diseñada para los controles de acceso en puerta de eventos. Permite la lectura eficiente de códigos QR conectándose a las APIs del backend Django. Incluye Modos de trabajo seleccionables ('Acceso Definitivo' para Check-in e invalidez del QR y 'Solo Lectura' para verificación informativa), feedback háptico, interfaz con guía de escaneo personalizada mediante overlays y pantalla modal de resultado para consumo directo de API de validación en tiempo real.",
+        "status": "ended",
         "imageContent": [
             "/assets/0shots_so.png",
             "/assets/1shots_so.png",
@@ -40,6 +42,7 @@
         "iconWatch": "/assets/youtube-svg.svg",
         "image": "/assets/102shot.png",
         "descriptionDetail": "Para desarrollar esta aplicación, se diseñó la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizó React para crear la interfaz de usuario y Redux para la gestión del estado de la aplicación. Además, para el diseño de la interfaz se utilizó CSS puro y componentes y estilos CSS predefinidos de Bootstrap. Por último, para habilitar la comunicación en tiempo real y características colaborativas, integramos Socket.IO, permitiendo a los usuarios interactuar en tiempo real en nuestra aplicación.",
+        "status": "ended",
         "imageContent": [
             "/assets/100shot.png",
             "/assets/101shot.png",
@@ -56,6 +59,7 @@
         "iconWatch": "/assets/youtube-svg.svg",
         "image": "/assets/902shot.png",
         "descriptionDetail": "Para desarrollar esta aplicación, se diseñó la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizó el framework Angular para crear la interfaz de usuario y NgRx Store para la gestión del estado de la aplicación. Los estilos de la interfaz se utilizó CSS puro y componentes de Angular Material. Por último, para habilitar la comunicación en tiempo real y características colaborativas, integramos Socket.IO, permitiendo a los usuarios interactuar en tiempo real en nuestra aplicación.",
+        "status": "ended",
         "imageContent": [
             "/assets/900shot.png",
             "/assets/901shot.png",
@@ -73,6 +77,7 @@
         "iconWatch": "/assets/youtube-svg.svg",
         "image": "/assets/201shot.png",
         "descriptionDetail": "Para desarrollar esta aplicación, se diseñó la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizó React Native Expo para crear la interfaz de usuario y Redux para la gestión del estado de la aplicación. Además, para el diseño de la interfaz se utilizó CSS puro. Por último, para habilitar la comunicación en tiempo real y características colaborativas, integramos Socket.IO, permitiendo a los usuarios interactuar en tiempo real en nuestra aplicación.",
+        "status": "ended",
         "imageContent": [
             "/assets/200shot.png",
             "/assets/201shot.png",
@@ -89,6 +94,7 @@
         "iconWatch": "/assets/browser-com.svg",
         "image": "/assets/0shot.png",
         "descriptionDetail": "Esta 'Landing Page' fue diseñó como proyecto final durante el curso 'Desarrollo Web Inicial' dictado por la universidad UTN durante el Argentina Programa 4.0. Su interfaz de usuario fue desarrollada puramente con las tecnologías básicas aprendidas: HTML, CSS y Javascript. Además, se le agregó una funcionalidad para mostrar el pronóstico del tiempo. Para la cual se utiliza la API weatherapi.com. Luego, para mostrar de manera grafica el pronóstico, se implementó el uso de los iconos Bootstrap.",
+        "status": "ended",
         "imageContent": [
             "/assets/0shot.png",
             "/assets/1shot.png",
@@ -104,6 +110,7 @@
         "iconWatch": "/assets/browser-com.svg",
         "image": "/assets/502shot.png",
         "descriptionDetail": "Aplicación que muestra gráficamente los diferentes datos que nos devuelve la API weatherapi.com. Para el lado del cliente, se utilizó la herramienta create React Vite. Mediante formulario de por medio hacemos uso de la librería 'country-state-city', la cual no solo nos brinda la posibilidad de mostrar los países, estados y ciudades a través de un input select, sino también recuperar la latitud y longitud de la ciudad elegida. A través de estos datos usamos la ruta de la api 'GET' que usa esta especificidad de latitud y longitud. Luego, para mostrar de manera grafica el pronóstico, se implementó el uso de los iconos Bootstrap. A su vez, muestra background-image dinámico dependiendo del tiempo pronosticado y momento del día.",
+        "status": "ended",
         "imageContent": [
             "/assets/500shot.png",
             "/assets/501shot.png",
@@ -120,6 +127,7 @@
         "iconWatch": "/assets/youtube-svg.svg",
         "image": "/assets/303shot.png",
         "descriptionDetail": "Este proyecto está basado en la aplicación de escritorio 'To Do' ofrecida por Microsoft. Además se le agregó otra funcionalidad que es el uso de grupos compartidos en donde un líder asigna tareas a otros usuarios. Para desarrollar esta aplicación, se diseñó la estructura de la base de datos en MongoDB utilizando Mongoose. Utilizamos Node.js para ejecutar el servidor y gestionar las solicitudes del cliente, creando las rutas de la API en Express.js. En el lado del cliente, se utilizó la herramienta create React Vite para la interfaz de usuario. Y Redux para la gestión del estado de la aplicación. El diseño de la interfaz fue a través de CSS puro.",
+        "status": "ended",
         "imageContent": [
             "/assets/300shot.png",
             "/assets/301shot.png",
@@ -128,5 +136,16 @@
             "/assets/304shot.png",
             "/assets/305shot.png"
         ]
+    },
+        {
+        "id": "10",
+        "name": "AI-powered Operations /\nCustomer Support Platform",
+        "description": "Plataforma de operaciones y atención al cliente impulsada por IA: tickets, documentos, tareas, pedidos, conocimiento interno, usuarios y permisos, workflows.",
+        "link": "",
+        "iconWatch": "/assets/youtube-svg.svg",
+        "image": "/assets/workingshots_so.png",
+        "descriptionDetail": "",
+        "status": "working",
+        "imageContent": [ ]
     }
 ]
